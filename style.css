@@ -1,0 +1,55 @@
+* {
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0); 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+em, i{
+    font-style: italic;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 750px; /* Temporary space until we fill with 3D */
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.side-text p{
+    margin: 0px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    position: relative; top: 15px;
+}
+
+.bio{
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+    font-size: 20px;
+}
+
+.skills p{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.skills-title {
+    margin-left: 40px;
+    font-size: 150px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
