@@ -1,5 +1,6 @@
 * {
-    background-color: rgb(233, 233, 233);
+    /*background-color: rgb(233, 233, 233);*/
+    background-color: rgb(200, 208, 241);
     color: rgb(0, 0, 0); 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -20,6 +21,8 @@ header {
 }
 
 .logo a{
+    background-color: transparent;
+    position: fixed;
     text-decoration: none;
     font-size: 30px;
     letter-spacing: 2px;
@@ -41,15 +44,36 @@ header {
     font-size: 20px;
 }
 
-.skills p{
+.skills p {
     margin-left: 40px;
     font-size: 20px;
     margin-bottom: 50px;
 }
 
-.skills-title {
+.tools p {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.skills-title, .projects-title{
     margin-left: 40px;
     font-size: 150px;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
+
+.skills-tools-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 175px;
+}
+
+.extra-skills p1{
+    font-size: 50px;
+}
+
+.projects-title {
+    margin-top: 10px;
+}
+
