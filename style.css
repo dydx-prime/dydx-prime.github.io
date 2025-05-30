@@ -1,96 +1,106 @@
-* {
-    background-color: rgb(227, 233, 250);
-    /*background-color: rgb(200, 208, 241);*/
-    color: rgb(0, 0, 0); 
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-html {
-    overflow-x: hidden;
-}
-
-em, i{
-    font-style: italic;
-}
-
-header {
-    display:flex;
-    align-items: center;
-    gap: 20rem;
-    margin-top: 1.5rem;
-    margin-left: 3rem;
-    margin-bottom: 47rem; /* Temporary space until we fill with 3D */
-}
-
-.logo a{
-    position: fixed;
-    margin-top: -2rem;
-    margin-left: 2.5rem;
-    background-color: transparent;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    font-size: 3rem;
-    letter-spacing: .1rem;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
 }
 
-.side-text p{
-    margin: 0rem;
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #f0f1fa;
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: inherit; /* or color */
+}
+
+header{ /* basically header*/
+    position: fixed;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
     font-size: 2.2rem;
-    letter-spacing: 1px;
-    position: relative; top: 2rem; left: 11rem;
 }
 
-.bio{
-    text-align: center;
-    margin-top: -2rem;
+/*.resume {
+    position: fixed;
+    padding: 1rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+}*/
+
+.side-text {
+    margin-top: 2rem;
+    padding: 1rem 9%;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio, .socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42rem;
 }
 
 .socials {
-    text-align: center;
-    font-size: 1.25rem;
+    margin-top: .4rem;
+    gap: .5rem;
+    margin-bottom: 5rem;
 }
 
-.skills p {
-    margin-top: 0rem;
-    margin-left: 5.55rem;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
-.tools p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
-.skills-title, .projects-title{
-    font-size: 18rem;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    letter-spacing: -.5rem;
-}
-
-.skills-tools-wrapper{
+.skills-title {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 50rem;
+    font-size: 10rem;
+    margin-bottom: 5rem;
 }
 
-.extra-skills{
-    font-size: 6rem;
-    transform: translateX(-30rem);
-    margin-bottom: -1rem;
+.skills-tools-wrapper {
+  padding-right: 10rem; /* or try 2rem, 5%, etc. */
+  font-size: 3rem;
+  margin-bottom: 4rem;
 }
 
-.tools p2{
-    font-size: 2rem;
+.skills p, .tools p{
+    margin-bottom: 3rem;
+    margin-left: 10.7rem;
 }
 
-.protocols p{
-    transform: translateX(-30rem);
+.projects-title-section{ 
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-.projects-title {
-    margin-top: 10rem;
+.projects-title{
+    font-size: 10rem;
+}
+
+.projects-mission{
+    padding-right: 1.5rem;
+    margin-top: 6rem;
+    font-size: 1rem;
 }
